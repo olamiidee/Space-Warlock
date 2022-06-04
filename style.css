@@ -161,13 +161,13 @@ body {
 .twitter-link {
     position: absolute;
     left: 0%;
-    top: auto;
+    top: 100%;
     right: 0%;
     bottom: 0%;
     color: #2196f3;
-    display:block;
+    display: flex;
     width: 100%;
-    font-size: 70px;
+    font-size: 50px;
     padding-top: 10px;
     padding-bottom: px;
     -webkit-box-orient: vertical;
@@ -403,15 +403,21 @@ hr {
 
 
 @media (max-width: 1000px) {
+
+
+    #wrapper {
+        margin-top: 150px ;
+    }
     #hero-content-wrapper h1{
         text-align: center;
         font-size: 60px;
-        margin: 55px;  
+        margin: 55px; 
+        margin-top: 50px; 
     }
 
     .join-btn {
         width: 80%;
-        margin-top: 10px;
+        margin-top: 30px;
         background: #000;
         color: #fff;
         padding: 15px 20px;
