@@ -489,6 +489,9 @@ hr {
         align-items: center;
         text-decoration: none;
     }
+    .team-wrapper img:hover {
+        transform:none;
+    }
 
     #slide {
         width: 100vw;
