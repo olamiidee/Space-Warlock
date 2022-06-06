@@ -302,7 +302,6 @@ body {
     display: flex;  
 }
 
-
 .btm-slides span{
     height: 15px;
     width: 50px;
@@ -310,8 +309,6 @@ body {
     margin: 0 3px;
     cursor: pointer;
 }
-
-
 
 .sliders{
     position: absolute;
@@ -323,23 +320,19 @@ body {
     background: rgba(255,255,255,0.1);
 }
 
-
 .sliders:hover{
     background: rgba(255,255,255,0.2);
 }
 
-
 .right{
     right: 0;
 }
-
 
 .sliders span{
     line-height: 41px;
     font-size: 35px;
     color: white;
 } 
-
 
 .last {
     display: flex;
@@ -354,8 +347,8 @@ body {
     display: inline-block;
     padding: 15px 30px;
     color: #2196f3;
-    text-transform: uppercase;
     letter-spacing: 4px;
+    font-weight: bold;
     text-decoration: none;
     font-size: 40px;
     overflow: hidden;
@@ -429,8 +422,6 @@ body {
     transition: 1s;
     transition-delay: 0.75s;
 }
-
-
 
 hr {
     margin-top: 60px;
