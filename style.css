@@ -16,6 +16,7 @@ body {
     background-color: #000;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
     
 }
 
@@ -268,7 +269,6 @@ body {
     min-height: 100vh;
     margin-top: 50px;
     margin-bottom: 50px;
-    
 }
 
 
@@ -276,7 +276,6 @@ body {
     height: 750px;
     width: 80%;
     position: relative;
-
 }
 
 
@@ -292,7 +291,6 @@ body {
     vertical-align: middle;
     border-radius: 5px;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px plum;
- 
 }
 
 
@@ -460,12 +458,12 @@ hr {
 }
 
 
-
+/* Media Queries */
 
 @media (max-width: 1000px) {
-
-
     #wrapper {
+        
+        width: 100vw;
         margin-top: 150px ;
     }
     #hero-content-wrapper h1{
@@ -474,7 +472,6 @@ hr {
         margin: 55px; 
         margin-top: 50px; 
     }
-
     .join-btn {
         width: 80%;
         margin-top: 30px;
@@ -561,7 +558,6 @@ hr {
     #slide {
         width: 100vw;
         margin: 100px auto 10px;
-        text-align: center;
     }
 
     .slide_wrapper{
@@ -570,10 +566,23 @@ hr {
         justify-content: center;
         text-align: center;
         min-height: 50vh;
-        margin-top: 10px;
+        margin-top: 90px;
         margin-bottom: 10px;
+        width: 100vw;
+        height: 60%;
     }
-     
+    .content{
+        height: 100%;
+        width: 95%;
+        position: relative;
+    }
+    
+    
+    .content .images{
+        height: 100%;
+        width: 100%;  
+    }
+
     .content .images img{
         height: 100%;
         width: 100%;
@@ -598,15 +607,11 @@ hr {
     #developed {
         font-size: 10px;
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
 
     hr {
         display: none;
-    }
-
-    .ola {
-        margin-bottom: 20px;
     }
     
     .footer .Unofficial {
