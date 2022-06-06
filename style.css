@@ -340,7 +340,7 @@ body {
     align-items: center;
     margin-top: 100px;
 }
-    
+
 
 .last a {
     position: relative;
@@ -437,15 +437,15 @@ hr {
 
 #developed {
     font-size: 20px;
-    display: flex;
-    justify-content: space-between;
+    font-style: italic;
     margin: 0 100px;
+    text-align: center; 
 }
 
 .footer .Unofficial {
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 15px;
-    font-style: italic;
+   
 }
 
 
@@ -595,8 +595,8 @@ hr {
     }
     
     #developed {
-        font-size: 10px;
-        display: block;
+        font-size: 20px;
+        font-style: italic;
         margin-bottom: 60px;
     }
 
@@ -607,19 +607,6 @@ hr {
     .footer .Unofficial {
         margin-top: 40px;
         font-size: 15px;
-        font-style: italic;
     }
     
-        
-    
-
-
-    
-   
-
-
-    
-
-    
-
 }
