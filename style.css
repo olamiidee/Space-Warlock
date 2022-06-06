@@ -456,6 +456,7 @@ hr {
         
         width: 100vw;
         margin-top: 150px ;
+        margin: 50% auto;
     }
     #hero-content-wrapper h1{
         text-align: center;
